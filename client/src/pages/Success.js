@@ -30,8 +30,7 @@ function Success() {
     saveOrder();
   }, [addOrder]);
 
-  setTimeout(function(){ alert(""); }, 3000);
-  window.location.assign('/')
+  setTimeout(function(){ window.location.assign("/")}, 3000);
 
 
   return (
